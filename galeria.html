@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galería | Máquina 30-30</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" href="images/ico.ico">
+
+    <style>
+        .gallery-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 15px;
+        }
+        .gallery-item {
+            border-radius: 8px;
+            overflow: hidden;
+            height: 250px;
+        }
+        .gallery-item img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: transform 0.3s;
+        }
+        .gallery-item:hover img {
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header / Navbar -->
+    <header class="navbar">
+        <div class="nav-logo">
+            <a href="index.html">
+                <!-- Using a placeholder for the logo, it can be replaced with the exact PNG -->
+                <img src="images/logo.jpg" alt="Logo">
+                <img 
+            </a>
+        </div>
+        
+        <nav>
+            <button class="mobile-menu-btn"><i class="fas fa-bars"></i></button>
+            <ul class="nav-links">
+             <li class="nav-item" ><a href="index.html">Inicio</a></li>
+                
+                <li class="nav-item">
+                    <a href="arreglos.html">Menú <i class="fas fa-chevron-down" style="font-size: 0.8rem;"></i></a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="arreglos.html#tacos">Envenenados</a></li>
+                        <li><a class="dropdown-item" href="arreglos.html#gringas">Envenenitas</a></li>
+                        <li><a class="dropdown-item" href="arreglos.html#volcanes">Moyetes Envenenados</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a href="eventos.html">Eventos <i class="fas fa-chevron-down" style="font-size: 0.8rem;"></i></a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="eventos.html#taquizas">Taquizas para fiestas</a></li>
+                        <li><a class="dropdown-item" href="eventos.html#empresarial">El Market Nocturno</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item" style="color: rgb(255, 115, 0);"><a href="galeria.html">Galería</a></li>
+                <li class="nav-item">
+                    <a href="nosotros.html">Nosotros <i class="fas fa-chevron-down" style="font-size: 0.8rem;"></i></a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="nosotros.html">Nuestra Historia</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+
+        <div class="nav-actions">
+            <a href="https://www.ubereats.com/mx/store/tacos-envenenados-maquina-30-30/wty09iaAX3K5OhTs3Eegpg?diningMode=DELIVERY&sc=SEARCH_SUGGESTION" class="btn-primary" style="background-color: rgb(16, 182, 1);">¡llevame a Uber Eats!</a>
+        </div>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <h1>Nuestra Galería</h1>
+    </section>
+
+    <!-- Content -->
+    <section class="section">
+        <div class="gallery-grid">
+            <div class="gallery-item">
+                <img src="images/Export - 1.jpg" alt="Tacos">
+            </div>
+            <div class="gallery-item">
+                <img src="images/Export - 2.jpg" alt="Gringa">
+            </div>
+            <!-- Placholders for the rest -->
+            <div class="gallery-item">
+                <img src="images/Export - 3.jpg" alt="Food">
+            </div>
+            <div class="gallery-item">
+                <img src="images/Export - 4.jpg" alt="Food">
+            </div>
+            <div class="gallery-item">
+                <img src="images/Export - 5.jpg" alt="Tacos">
+            </div>
+            <div class="gallery-item">
+                <img src="images/Export - 6.jpg" alt="Gringa">
+            </div>
+            <!-- Placholders for the rest -->
+            <div class="gallery-item">
+                <img src="images/Export - 7.jpg" alt="Food">
+            </div>
+            <div class="gallery-item">
+                <img src="images/Export - 8.jpg" alt="Food">
+            </div>        
+            <div class="gallery-item">
+                <img src="images/Export - 9.jpg" alt="Tacos">
+            </div>
+            <div class="gallery-item">
+                <img src="images/Export - 10.jpg" alt="Gringa">
+            </div>
+            <!-- Placholders for the rest -->
+            <div class="gallery-item">
+                <img src="images/Export - 11.jpg" alt="Food">
+            </div>
+            <div class="gallery-item">
+                <img src="images/Export - 12.jpg" alt="Food">
+            </div>
+            <div class="gallery-item">
+                <img src="images/Export - 13.jpg" alt="Tacos">
+            </div>
+            <div class="gallery-item">
+                <img src="images/Export - 1-2.jpg" alt="Gringa">
+            </div>
+            <!-- Placholders for the rest -->
+            <div class="gallery-item">
+                <img src="images/Export - 1-3.jpg" alt="Food">
+            </div>
+            <div class="gallery-item">
+                <img src="images/Export - 1.jpg" alt="Food">
+            </div>   
+            <div class="gallery-item">
+                <img src="images/Export - 1.jpg" alt="Tacos">
+            </div>
+            <div class="gallery-item">
+                <img src="images/Export - 1.jpg" alt="Gringa">
+            </div>
+            <!-- Placholders for the rest -->
+            <div class="gallery-item">
+                <img src="images/Export - 1.jpg" alt="Food">
+            </div>
+            <div class="gallery-item">
+                <img src="images/Export - 1.jpg" alt="Food">
+            </div>
+            <div class="gallery-item">
+                <img src="images/Export - 1.jpg" alt="Tacos">
+            </div>
+            <div class="gallery-item">
+                <img src="images/Export - 1.jpg" alt="Gringa">
+            </div>
+            <!-- Placholders for the rest -->
+            <div class="gallery-item">
+                <img src="images/Export - 1.jpg" alt="Food">
+            </div>
+            <div class="gallery-item">
+                <img src="images/Export - 1.jpg" alt="Food">
+            </div>   
+            <div class="gallery-item">
+                <img src="images/Export - 1.jpg" alt="Tacos">
+            </div>
+            <div class="gallery-item">
+                <img src="images/Export - 1.jpg" alt="Gringa">
+            </div>
+            <!-- Placholders for the rest -->
+            <div class="gallery-item">
+                <img src="images/Export - 1.jpg" alt="Food">
+            </div>
+            <div class="gallery-item">
+                <img src="images/Export - 1.jpg" alt="Food">
+            </div>
+            <div class="gallery-item">
+                <img src="images/Export - 1.jpg" alt="Tacos">
+            </div>
+            <div class="gallery-item">
+                <img src="images/Export - 1.jpg" alt="Gringa">
+            </div>
+            <!-- Placholders for the rest -->
+            <div class="gallery-item">
+                <img src="images/Export - 1.jpg" alt="Food">
+            </div>
+            <div class="gallery-item">
+                <img src="images/Export - 1.jpg" alt="Food">
+            </div>   
+
+            
+            
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-grid">
+            <div class="footer-col">
+                <h3>MÁQUINA 30-30</h3>
+                <p>Sabor con historia que no se detiene.</p>
+            </div>
+            <div class="footer-col">
+                <h3>Enlaces</h3>
+                <ul class="footer-links">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="arreglos.html">Menú</a></li>
+                    <li><a href="eventos.html">Eventos</a></li>
+                    <li><a href="nosotros.html">Nosotros</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h3>Contacto</h3>
+                <ul class="footer-links">
+                    <li><i class="fas fa-phone"></i> 449 453 6506</li>
+                    <li><i class="fas fa-map-marker-alt"></i> Av. Siempre Viva 123</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Máquina 30-30. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- Lightbox Modal -->
+    <div id="lightbox" class="lightbox">
+        <span class="lightbox-close">&times;</span>
+        <img class="lightbox-content" id="lightbox-img">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
